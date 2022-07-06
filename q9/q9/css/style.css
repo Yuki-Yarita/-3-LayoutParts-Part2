@@ -102,15 +102,17 @@
   background: #fff;
   border: 1px solid #000;
   padding: 20px;
+  transition: .5s;
+  border-left: 0;
 }
 
 .in-card:hover {
   box-shadow: 0 0 10px 3px #424242d0;
-  z-index: 5;
+  z-index: 1;
 }
 
 .in-card:nth-child(n+2) {
-  border-left: 0;
+  border-left: 1 solid #000;
 }
 
 .image {
@@ -124,6 +126,6 @@
   border-radius: 50%;
 }
 
-p {
+.in-card > p {
   margin-top: 20px;
 }
