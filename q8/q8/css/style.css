@@ -9,20 +9,13 @@
 }
 
 .back-norepeat {
-  background-image: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
+  background: url(../../image/coffee-background.jpg) no-repeat;
 }
 
 .back-center {
-  background-image: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url(../../image/coffee-background.jpg) no-repeat center/cover;
 }
 
 .back-center-img {
-  background-image: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background: url(../../image/coffee-background.jpg) no-repeat center/contain;
 }
