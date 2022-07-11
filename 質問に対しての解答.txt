@@ -2,8 +2,12 @@ Q6:通常リストを作成すると"・"が標準で表示されますが消し
 またaタグをを使用した場合はアンダーラインが表示されますがそれを打ち消しているCSSはどれですか？
 
 A6:リストを作成したらでる"."を消しているCSSは"list-style: none;"
-　 aタグを使用した場合に表示されるアンダーラインを打ち消しているCSSは"text-decoration: none;"　	　
+　 aタグを使用した場合に表示されるアンダーラインを打ち消しているCSSは"text-decoration: none;"　	
 
+Q6：list-style: none;ですがreset.cssに記述しているにも関わらずstyle.cssに記述している理由を答えてください。
+
+A6：reset.cssの中身を確認せずstyle.cssのみ気にしてlist-style: none;にしてしまっていました。reset.cssに記載されているためstyle.cssで指定する必要はありませんでした。更新してプッシュします。
+　
 Q7:before、afterの役割を教えてください。
 .border:before , .border:after と書いている部分がありますがこのメリットを答えてください。
 
